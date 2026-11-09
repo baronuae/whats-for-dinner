@@ -1,0 +1,6 @@
+node_modules/
+mobile/.expo/
+mobile/dist/
+mobile/ios/
+mobile/android/
+.DS_Store

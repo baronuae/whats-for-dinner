@@ -1,0 +1,47 @@
+{
+  "expo": {
+    "name": "ماذا نطبخ؟",
+    "slug": "whats-for-dinner",
+    "scheme": "whatsfordinner",
+    "version": "1.0.0",
+    "orientation": "portrait",
+    "icon": "./assets/icon.png",
+    "userInterfaceStyle": "light",
+    "backgroundColor": "#f3f5ef",
+    "primaryColor": "#a8323e",
+    "description": "Arabic, Middle Eastern and Mediterranean lunch and dinner recipes with ingredients, a WhatsApp shopping list and step-by-step cooking.",
+    "ios": {
+      "bundleIdentifier": "com.baronuae.whatsfordinner",
+      "buildNumber": "1",
+      "supportsTablet": true,
+      "config": { "usesNonExemptEncryption": false },
+      "infoPlist": {
+        "CFBundleDisplayName": "ماذا نطبخ؟",
+        "CFBundleDevelopmentRegion": "ar",
+        "LSApplicationQueriesSchemes": ["whatsapp", "youtube", "mailto"]
+      }
+    },
+    "android": {
+      "package": "com.baronuae.whatsfordinner",
+      "versionCode": 1,
+      "adaptiveIcon": {
+        "backgroundColor": "#a8323e",
+        "foregroundImage": "./assets/android-icon-foreground.png",
+        "monochromeImage": "./assets/android-icon-monochrome.png"
+      },
+      "permissions": []
+    },
+    "plugins": [
+      "expo-asset",
+      [
+        "expo-splash-screen",
+        {
+          "image": "./assets/splash-icon.png",
+          "imageWidth": 200,
+          "resizeMode": "contain",
+          "backgroundColor": "#f3f5ef"
+        }
+      ]
+    ]
+  }
+}
